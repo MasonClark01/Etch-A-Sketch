@@ -13,10 +13,10 @@
     </div>
     <div class="maincontent">
         <div class="settings">
-            <h3>Grid Size: 16</h5>
-            <input type="range" min="16" max="64" value="16" class="slider" id="myRange">
-            <button class="sButton reset">RESET</button>
-            <button class="sButton rainbow">Rainbow Mode -Off</button>   
+            <h3 id="gridSize">Grid Size: 16x16</h3>
+            <input type="range" min="16" max="64" value="16" class="gridSlider" id="myRange" oninput="gridSizer(this.value)">
+            <button class="sButton rainbow" id="rainbowID">Rainbow Mode -Off</button>  
+            <button class="sButton reset">RESET</button> 
         </div>
         <div class="container"></div>
     </div>

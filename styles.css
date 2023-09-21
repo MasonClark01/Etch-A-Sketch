@@ -5,14 +5,17 @@ body{
     height: 90vh;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ffdeb699;
+    background-color: firebrick;
 }
 
 h1{
     text-align: center;
+    color: whitesmoke;
 }
 h3{
     margin: 0;
+    font-size: 24px;
+    color: whitesmoke;
 }
 .maincontent{
     display: flex;
@@ -44,16 +47,31 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10%;
 }
-.slider{
+.gridSlider{
     width: 75%;
     -webkit-appearance: none;
     appearance: none;
-    background-color: #dadada;
-    border-radius: 5px;
+    accent-color: firebrick;
+    background-color: #fdd099a8;
+    border-radius: 10px;
 }
 .sButton{
     width: 50%;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: #fdd099a8;
+    color: whitesmoke;
+    border: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.sButton:hover{
+    width: 60%;
+    border-radius: 10px;
+    background-color: firebrick;
+    color: goldenrod;
+    border: none;
+    transition: 0.5s;
 }
